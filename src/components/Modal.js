@@ -17,28 +17,35 @@ const Modal=(props)=>{
         <AiFillCloseCircle className='cursor' onClick={close}></AiFillCloseCircle>
         </div>
         <div className='modalBody' >
-            <div className='row'>
-                <div className='col-12 col-sm-5'>
+            <div className='row row2 margin-bottom'>
+                <div className='col-12 col-sm-4'>
                     <img className='img-fluid size' src={props.show.volumeInfo.imageLinks.thumbnail} alt=''/>
                 </div>
-                <div className='col-12 col-sm-5'>
+                <div className='col-12 col-sm-4'>
                     
-                   <h2> { props.show.volumeInfo.title}</h2>
-                   <a href={props.show.saleInfo.buyLink}><button className='btn btn-primary'>{props.show.saleInfo.saleability}</button> </a>
+                   <h4> { props.show.volumeInfo.title}</h4>
+                   {/* <a className='margin-bottom' href={props.show.saleInfo.buyLink}><button className='btn btn-primary '>{props.show.saleInfo.saleability}</button> </a> */}
                     
                 </div>
+                <div className='col-12 col-sm-4'>
+                    {/* <div> */}
+                        <a href={props.show.saleInfo.buyLink}><button className='btn btn-primary '>{props.show.saleInfo.saleability}</button> </a>
+                    {/* </div> */}
+                </div>
+                
             </div>
+           
 
             <div className='row'>
 
                 <div className='col-12 col-sm-3'>
-                <h5>published Date: { props.show.volumeInfo.publishedDate}</h5>
+                <h6><span className='bold'>published Date:</span> { props.show.volumeInfo.publishedDate}</h6>
                 </div>   
                 <div className='col-12 col-sm-3'>
-                    <h5>page Count: { props.show.volumeInfo.pageCount}</h5>
+                    <h6><span className='bold'>page Count:</span> { props.show.volumeInfo.pageCount}</h6>
                 </div>  
                 <div className='col-12 col-sm-5'>
-                    <h5>authors: { props.show.volumeInfo.authors}</h5>
+                    <h6><span className='bold'>authors: </span>{ props.show.volumeInfo.authors}</h6>
                 </div> 
             </div>
 

@@ -46,6 +46,8 @@
     overflow-y: scroll;
     scrollbar-color: #6969dd #e0e0e0;
     scrollbar-width: thin;
+    padding-top:5px ;
+    margin-top: 10px;
     /* display: flex; */
     /* justify-content: center; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -103,7 +105,19 @@ h3{
   }
 .footer{
     margin-bottom: 30px;
+    text-shadow: none;
   }
   .position{
     top: 100px;
   }
+  .margin-bottom{
+    margin-bottom: 10px;
+    /* min-height: 110px; */
+    position: relative;
+  }
+.row2{
+  /* border: 1px solid #222; */
+  position: relative;
+  height:fit-content
+
+}

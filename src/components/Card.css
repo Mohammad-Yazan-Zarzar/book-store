@@ -1,0 +1,47 @@
+.card{
+    width: 20rem;
+    /* background-color: #7B3F00;
+     */
+     background-color: #F29559;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 4px rgba(50, 50, 70, 0.5);
+    /* position: relative; */
+    max-height: 700px;
+
+}
+li{
+    color: #000;
+}
+.img{
+    max-height: 18rem;
+    border-radius: 20px;
+}
+.title{
+  color: #0D1F22;
+
+}
+.text{
+    color: #3c5233;
+}
+span{
+    color: #264027;
+    font-weight: bold;
+}
+.colory{
+    width: 100%;
+    background-color: #0D1F22;
+    color: #F29559;
+}
+a{
+    text-decoration: none;
+
+    color: #F29559;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    background-color: #264027;
+    
+}

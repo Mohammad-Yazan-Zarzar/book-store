@@ -121,3 +121,6 @@ h3{
   height:fit-content
 
 }
+.heightLoader{
+  min-height: 200px;
+}

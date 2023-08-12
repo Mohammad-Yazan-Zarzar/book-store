@@ -16,7 +16,7 @@ const Main=(props)=>{
         // console.log(itemPosition)
         // setPosition(itemPosition)  
     }
-    return <div className="container" id='main'> 
+    return <div className="container heightLoader" id='main'> 
         <Modal id='modal' click={click} setClick={setClick}  show={show} position={position} ></Modal>
         {props.arrCard.map((item,index)=>{
             let title=item.volumeInfo.title

@@ -6,7 +6,7 @@ const Card=(props)=>{
             
             <img className="card-img-top img" src={props.image} alt='' />
             <div className="card-body">
-                <h5 className="card-title title">{props.title}</h5>
+                <div className="card-title text-nowrap text-truncate title">{props.title}</div>
                 <p className="card-text text"><span className='bold'>language:</span> {props.language} </p>
                 <p className='card-text text'><span className='bold'>categories:</span>  {props.categ} </p>
             </div>

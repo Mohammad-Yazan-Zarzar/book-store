@@ -7,18 +7,25 @@
     border-radius: 20px;
     box-shadow: 2px 4px rgba(50, 50, 70, 0.5);
     /* position: relative; */
-    max-height: 700px;
+    /* max-height: 700px; */
+    max-height: 400px;
+    font-size: 13px;
 
 }
 li{
     color: #000;
 }
 .img{
-    max-height: 18rem;
+    max-height: 12rem;
     border-radius: 20px;
 }
 .title{
   color: #0D1F22;
+  /* background-color: aqua; */
+  /* height: 30px; */
+  overflow:hidden;
+  font-size: 16px;
+
 
 }
 .text{

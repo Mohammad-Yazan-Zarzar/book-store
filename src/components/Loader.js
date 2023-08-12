@@ -22,7 +22,7 @@ import Box from '@mui/material/Box';
 export default function Loader(props) {
     if(props.loaderOn==='on'){
     return (
-    <Box className='center' sx={{ display: 'flex' }}>
+    <Box className='center heightLoader' sx={{ display: 'flex' }}>
       <CircularProgress />
     </Box>
   );
